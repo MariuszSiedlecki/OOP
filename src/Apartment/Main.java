@@ -1,3 +1,7 @@
+package Apartment;
+
+import Apartment.Apartment;
+
 import java.util.LinkedList;
 import java.util.List;
 

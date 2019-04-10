@@ -1,3 +1,7 @@
+package Laptop;
+
+import Laptop.Laptop;
+
 import java.util.ArrayList;
 import java.util.List;
 

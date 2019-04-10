@@ -1,3 +1,5 @@
+package Laptop;
+
 public class Laptop {
     private String name;
     private int grade;
