@@ -5,18 +5,18 @@ import java.util.List;
 
 public class Class {
 
-    private List<String> names = new ArrayList<>();
+    private List<Students> names = new ArrayList<>();
     public int count = 0;
 
     public Class() {
     }
 
-    public Class(List<String> names) {
+    public Class(List<Students> names) {
         this.names = names;
     }
 
-    public void addStudent(String name) {
-        names.add(name);
+    public void addStudent(Students students) {
+        names.add(students);
     }
 
     public void doisplayStudent() {
@@ -35,8 +35,8 @@ public class Class {
     }
 
     public int getGirlsCount() {
-        for (String name : names) {
-            if (name.endsWith("a")) {
+        for (Students name : names) {
+            if (name.getName().endsWith("a")) {
                 count++;
             }
         }
@@ -44,8 +44,8 @@ public class Class {
     }
 
     public int getBoysCount() {
-        for (String name : names) {
-            if (!name.endsWith("a")) {
+        for (Students name : names) {
+            if (!name.getName().endsWith("a")) {
                 count++;
             }
         }
@@ -54,9 +54,11 @@ public class Class {
 
     public int sumStudents() {
         int sum = 0;
-        for (String name : names) {
+        for (Students name : names) {
             sum++;
         }
         return sum;
+
+        }
     }
-}
+
