@@ -1,11 +1,11 @@
 package ListOfCarPats;
 
-public class NameParts {
+public class Parts {
     private String name;
     private int quantity;
     private double price;
 
-    public NameParts(String name, int quantity, double price) {
+    public Parts(String name, int quantity, double price) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
