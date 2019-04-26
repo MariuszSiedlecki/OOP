@@ -18,7 +18,7 @@ public class Main {
         for (Animal animal : list) {
             if (animal.isLoud()) {
                 System.out.print(animal.getName() + " : ");
-                animal.speak(random.nextInt(4) + 1);
+                animal.speak(random.nextInt(4) +1);
             }
         }
         System.out.println("Silent animals");

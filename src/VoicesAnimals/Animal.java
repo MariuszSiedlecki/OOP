@@ -38,7 +38,7 @@ public class Animal {
     }
 
     public void speak(int times) {
-        String count = String.join(" ", Collections.nCopies(times, sound));
+        String count = String.join(", ", Collections.nCopies(times,sound));
         if (loud) {
             count = count.toUpperCase();
         } else {
