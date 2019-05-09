@@ -6,7 +6,7 @@ public class Employee {
     private String position;
     private static int COUNTER = 0;
 
-    public Employee(String position,int salary ) {
+    public Employee(String position, int salary) {
         this.id = ++COUNTER;
         this.salary = salary;
         this.position = position;
@@ -37,7 +37,7 @@ public class Employee {
     }
 
     @Override
-    public String toString(){
-        return "(" + getId()+ ") (" + getPosition() + ") " + getSalary()+ " zł" ;
+    public String toString() {
+        return "(" + getId() + ") (" + getPosition() + ") " + getSalary();
     }
 }
