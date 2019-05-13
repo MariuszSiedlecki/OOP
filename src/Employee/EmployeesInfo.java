@@ -28,8 +28,8 @@ public class EmployeesInfo {
 
     public void salaryEmployee() {
         float count = 0;
-        for (Employee emploee : employees) {
-            System.out.println(emploee);
+        for (Employee employee : employees) {
+            System.out.println(employee);
         }
     }
 
